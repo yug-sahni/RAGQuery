@@ -1,4 +1,4 @@
-# 📄 Free Document Q&A System
+# 📄 Document Q&A System
 
 A powerful, completely free document question-answering system that lets you upload documents and ask questions in natural language. Built with advanced AI techniques including RAG (Retrieval-Augmented Generation) and hybrid search.
 
@@ -31,12 +31,14 @@ A powerful, completely free document question-answering system that lets you upl
 ## 🔧 Installation
 
 1. **Clone the repository**
-```bash git clone <your-repo-url>
+```bash 
+git clone <your-repo-url>
 cd document-qa-system
 ```
 
 2. **Install dependencies**
-```bash pip install -r requirements.txt
+```bash 
+pip install -r requirements.txt
 ```
 
 3. **Optional: Install Ollama** (for better AI responses)
@@ -47,13 +49,15 @@ cd document-qa-system
 ## 🚀 How to Run
 
 ### Windows/Mac/Linux
-```bash streamlit run app.py
+```bash 
+streamlit run app.py
 ```
 
 The web interface will open at `http://localhost:8501`
 
 ### Alternative (if Streamlit conflicts occur)
-```bash streamlit run app.py --server.fileWatcherType none
+```bash 
+streamlit run app.py --server.fileWatcherType none
 ```
 
 ## 📖 Usage Example
@@ -61,20 +65,12 @@ The web interface will open at `http://localhost:8501`
 1. **Initialize System**: Click "Initialize System" in the sidebar
 2. **Upload Documents**: Add your PDF, DOCX, or TXT files
 3. **Process Documents**: Click "🚀 Process Documents"
-4. **Ask Questions**: 
-   - Date queries: "What was done on 6-Sept?"
-   - Technical queries: "What drilling procedures were used?"
-   - Summary queries: "Summarize all activities"
+4. **Ask Questions**
 
-### Example Queries
-✅ "What activities were performed on September 6th?"
-✅ "What drilling procedures were mentioned?"
-✅ "Summarize the key findings"
-✅ "What was the WBM density?"
-✅ "List all technical specifications"
 
 ## 📁 File Structure
 
+```bash
 document-qa-system/
 ├── app.py # Main Streamlit web application
 ├── document_parser.py # PDF/DOCX/TXT parsing with table extraction
@@ -86,6 +82,7 @@ document-qa-system/
 ├── requirements.txt # Python dependencies
 ├── setup.py # Installation and setup script
 └── data/ # Directory for saved databases
+```
 
 ### File Descriptions
 
@@ -126,9 +123,6 @@ document-qa-system/
 - **FAISS**: Free vector search by Facebook AI
 - **Streamlit**: Free web framework
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 
 
