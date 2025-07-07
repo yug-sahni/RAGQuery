@@ -3,9 +3,16 @@
 A powerful, completely free document question-answering system that lets you upload documents and ask questions in natural language. Built with advanced AI techniques including RAG (Retrieval-Augmented Generation) and hybrid search.
 
 <p align="center">
-  <img src="Diagrams/RAGclassDia.svg" alt="Class Diagram" width="700"/>
+  <img src="Diagrams/RAGSysArch.svg" alt="Class Diagram" width="700"/>
 </p>
 
+<p align="center">
+  <img src="Diagrams/RAGInteractionDia.svg" alt="Class Diagram" width="700"/>
+</p>
+
+<p align="center">
+  <img src="Diagrams/RAGDataFlow.svg" alt="Class Diagram" width="700"/>
+</p>
 
 ## 🚀 Features
 
