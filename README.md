@@ -2,6 +2,11 @@
 
 A powerful, completely free document question-answering system that lets you upload documents and ask questions in natural language. Built with advanced AI techniques including RAG (Retrieval-Augmented Generation) and hybrid search.
 
+<p align="center">
+  <img src="Diagrams/RAGclassDia.svg" alt="Class Diagram" width="200"/>
+</p>
+
+
 ## 🚀 Features
 
 - **📁 Multi-format Support**: PDF, DOCX, and TXT files
