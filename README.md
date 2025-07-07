@@ -127,14 +127,6 @@ document-qa-system/
 - Process documents in smaller batches for large files
 - Save database to avoid reprocessing documents
 
-## 🆓 Why This is Completely Free
-
-- **Ollama**: Runs locally, no API costs
-- **HuggingFace**: Free transformer models
-- **Sentence Transformers**: Open-source embeddings
-- **FAISS**: Free vector search by Facebook AI
-- **Streamlit**: Free web framework
-
 
 
 
